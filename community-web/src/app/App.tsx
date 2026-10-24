@@ -18,6 +18,8 @@ import logoBtcmapUrl from "./logos/logo-btcmap.svg?url";
 import logoBtcpayUrl from "./logos/logo-btcpay.svg?url";
 import logoSatfluxUrl from "./logos/logo-satflux.svg?url";
 import logoHydranodeUrl from "./logos/logo-hydranode.svg?url";
+import logoLinkyUrl from "./logos/logo-linky.svg?url";
+import logoPaykyUrl from "./logos/logo-payky.svg?url";
 
 type EventItem = {
   id: string;
@@ -63,6 +65,8 @@ const TOOLS: Array<{ name: string; desc: string; url: string; emoji: string; log
   { name: "BTC Map",      desc: "Bitcoin prijímajú blízko",  url: "https://btcmap.org",              emoji: "🗺️", logoUrl: logoBtcmapUrl },
   { name: "Hydranode",    desc: "PoS terminál",              url: "https://hydranode.org",           emoji: "🖥️", logoUrl: logoHydranodeUrl },
   { name: "SATFLUX",      desc: "Prijímaj Bitcoin jednoducho", url: "https://satflux.io",            emoji: "🔭", logoUrl: logoSatfluxUrl },
+  { name: "Linky",        desc: "Bitcoin platby a správy",    url: "https://linky.fit",             emoji: "💬", logoUrl: logoLinkyUrl },
+  { name: "Payky",        desc: "Bitcoin platby",             url: "https://payky.me",              emoji: "⚡", logoUrl: logoPaykyUrl },
   { name: "DCA Kalkulačka",desc: "Pravidelný nákup BTC",    url: "https://dca.dvadsatjeden.org",    emoji: "📈" },
   { name: "Vekslak",      desc: "Pomôcka pre výpočty",       url: "https://vekslak.dvadsatjeden.org",emoji: "₿",  logoEl: <VekslakIcon /> },
   { name: "CBDC.icu",     desc: "CBDC vs. Bitcoin",          url: "https://cbdc.icu",               emoji: "🏦" },
