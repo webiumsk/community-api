@@ -63,6 +63,7 @@ export default defineConfig(({ command }) => {
         injectRegister: "auto",
         injectManifest: {
           globPatterns: ["**/*.{js,css,html,png,svg,wasm}"],
+          globIgnores: ["**/og-community-*.png"],
         },
         manifest: {
           name: "Dvadsatjeden — Bitcoin komunita",

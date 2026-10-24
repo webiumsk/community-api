@@ -10,6 +10,17 @@ Aktuálny návrh používa čiernu, bitcoinovú oranžovú a vecné slovenské t
 - Kompaktná typografia, malé polomery rohov, jasný kontrast a čitateľné disabled/error stavy.
 - Pôvodný bielo-oranžový wordmark Dvadsatjeden v bočnej navigácii a mobilnej hlavičke. SVG je uložené lokálne v `community-web/src/app/logos/logo-dvadsatjeden.svg`; zdrojom je pôvodné [Logo-Mensie.svg](https://www.dvadsatjeden.org/wp-content/uploads/2023/09/Logo-Mensie.svg).
 - Vlastná geometrická značka `21` v ikone aplikácie. Hlavná WordPress stránka ani jej logo sa tým nemenia.
+- Favicon prehliadača používa pôvodnú oranžovú `21` z hlavného webu, lokálne uloženú v `community-web/public/favicon.png`. Zdroj: [icon-100x100.png](https://www.dvadsatjeden.org/wp-content/uploads/2023/09/icon-100x100.png). PWA ikony majú samostatné súbory.
+
+## Náhľad pri zdieľaní
+
+`community-web/public/og-community-v2.png` je používateľom schválená karta 1733 × 908 px. Zobrazuje komunitné stretnutia prepojené oranžovou bitcoinovou sieťou, motívy Slovenska a Česka a vecný popis aplikácie na čiernom pozadí. Ide o štylizovanú ilustráciu, nie geografickú mapu ani zoznam skutočných podujatí. Obrázok neobsahuje živé počty ani dátumy.
+
+Používateľ schválil tento návrh 24. 10. 2026. Finálny PNG je presná kópia schváleného výstupu vstavaného nástroja image_gen, bez ďalších vizuálnych úprav; zadanie je v `community-web/design/og-community-v2.prompt.txt`. Pri zmene návrhu použi nový názov PNG a aktualizuj oba odkazy v `index.html`, aby sa obnovili náhľady uložené sociálnymi sieťami. Veľké obrázky na zdieľanie sú vylúčené z PWA precache v `vite.config.ts`; náhľadové roboty ich načítajú priamo cez verejnú URL.
+
+Open Graph a Twitter metadáta sú priamo v `index.html`, dostupné aj bez JavaScriptu. Odkazy na obrázok používajú absolútnu produkčnú URL. Návrh obrázka vyžaduje výslovné schválenie používateľom pred nasadením; samotný commit ani úspešné CI toto schválenie nenahrádzajú.
+
+V sekcii Nástroje nasledujú po SATFLUX nástroje Linky a Payky. Ich lokálne SVG logá pochádzajú z [linky.fit/icon.svg](https://linky.fit/icon.svg) a [payky.me/pwa-icon.svg](https://payky.me/pwa-icon.svg).
 
 ## Rozloženie a texty
 
@@ -32,4 +43,6 @@ Zmeny idú cez novú vetvu, commit, push a PR. Pred mergom musí prejsť CI a do
 - `community-web/src/app/community-app.css`: vizuálny systém a responzivita.
 - `community-web/src/features/layout/AppLayout.tsx`: značka, navigácia a názvy sekcií.
 - `community-web/src/features/layout/AtlasHero.tsx`: prehľadový panel so skutočnými údajmi. Názov súboru je interný historický názov.
-- `community-web/public/favicon.svg` a `scripts/generate-icons.mjs`: SVG a generované PNG ikony PWA.
+- `community-web/public/favicon.png`: pôvodná favicon hlavného webu.
+- `community-web/scripts/generate-icons.mjs`: generovanie samostatných PNG ikon PWA.
+- `community-web/design/og-community-v2.prompt.txt` a `community-web/public/og-community-v2.png`: zadanie a schválený obrázok na zdieľanie.

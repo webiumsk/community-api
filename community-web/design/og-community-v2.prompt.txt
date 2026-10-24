@@ -1,0 +1,16 @@
+Generated with built-in image_gen, approved by the user on 2026-10-24.
+Reference: community-web/public/og-community-v1.png at commit 7869bfb.
+Final PNG is the approved original, unchanged (1733 x 908 pixels).
+
+Use case: ads-marketing
+Asset type: a compelling finished Open Graph social sharing banner for the Dvadsatjeden Bitcoin community app, landscape aspect ratio 1200:630 (approximately 1.905:1).
+Input image 1 is the old sharing banner, an edit target and exact brand reference. Preserve its original DVADSATJEDEN wordmark faithfully, including its actual letter shapes, white/orange coloring, small Bitcoin mark. Completely redesign the rest into an arresting premium visual, not a plain title slide.
+Primary request: an eye-catching cinematic black-and-bitcoin-orange banner that immediately communicates real local communities, meetups, and shared projects in Slovakia and Czechia. On the right half, a beautifully crafted isometric miniature night scene: a dark raised sculptural terrain suggesting Czechia and Slovakia, with 3 small warmly lit community gathering places, tiny human figures around tables and an event space. Fine glowing orange connections link these places and converge on a strong luminous orange Bitcoin symbol. Sophisticated, tactile charcoal surfaces, warm orange light spilling onto the terrain, subtle atmospheric depth, bold foreground/background separation. A designed editorial 3D illustration with a striking focal point, restrained details readable at thumbnail size.
+Composition: use the left 50% for clean spacious typography and the faithful original logo near top left, and the right 50% for the cinematic community/network illustration. The illustration can overlap behind the lower right portion, fading naturally into black near text. Keep every text and logo at least 60px from edges. No frame or UI mockup. Dark background #08090b, orange #f7931a, crisp white headline. Confident strong sans-serif typography.
+Exact Slovak text, including accents:
+Headline on two lines: "Bitcoin" then "komunita"
+Subtitle: "na Slovensku a v Česku"
+Small feature line: "Udalosti · Komunity · Projekty"
+Small URL: "app.dvadsatjeden.org"
+The faithful reference wordmark is the only other text.
+Maintain high legibility for mobile social feeds. Avoid stock crypto investment imagery, coin piles, charts, rockets, luxury imagery, purple or blue gradients, garbled labels, extra words, invented city names, visual clutter, excessive glow. This is a welcoming community app rather than an investment advertisement. Deliver one polished finished banner, no collage.
